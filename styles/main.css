@@ -1,0 +1,30 @@
+body{
+    background-color:whitesmoke;
+ 
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    max-width:30rem;
+}
+
+img{
+    margin:4rem 0 6rem 0;
+    height:15rem;
+    width:25rem;
+ 
+}
+#dice {
+    color: white;
+    background-color: green;
+    padding:1.5rem 3rem 1.5rem 3rem;
+    font-size:2rem;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    border:5px solid black;
+ 
+}
