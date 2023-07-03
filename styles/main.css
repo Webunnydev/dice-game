@@ -16,15 +16,17 @@ img{
     margin:4rem 0 6rem 0;
     height:15rem;
     width:25rem;
- 
+}
+button a{
+    color: white;
+    text-decoration: none;
 }
 #dice {
-    color: white;
     background-color: green;
     padding:1.5rem 3rem 1.5rem 3rem;
     font-size:2rem;
     font-weight:bold;
     letter-spacing:0.3rem;
     border:5px solid black;
- 
 }
+
