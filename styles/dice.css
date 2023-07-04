@@ -1,0 +1,35 @@
+body{
+    background-color:#797975;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.dice img{
+    margin:5rem 0 5rem 0;
+    height:15rem;
+    width:30rem;
+}
+.players{
+    display:inline-flex;
+    gap:5rem;
+}
+.players h1{
+    color:white;
+}
+.options{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+.options button{
+    background-color:green;
+    color:white;
+    padding:1rem 3rem 1rem 3rem;
+    font-size:2rem;
+    font-weight:bold;
+    letter-spacing:0.1rem;
+    border:5px solid black;
+}
