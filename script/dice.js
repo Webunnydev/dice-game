@@ -57,13 +57,13 @@ function dice(){
     }
     console.log(blackDice());
     if (blackRange>whiteRange){
-        document.querySelector(".players").innerHTML="<h1> PLAYER 2 wins</h1>"
+        document.querySelector(".output").innerHTML="PLAYER 2 Wins";
     }
     else if (blackRange<whiteRange){
-        document.querySelector(".players").innerHTML="<h1> PLAYER 1 wins</h1>"
+        document.querySelector(".output").innerHTML="PLAYER 1 Wins";
     }
     else{
-        document.querySelector(".players").innerHTML="<h1> DRAW, Roll Again!!!</h1>"
+        document.querySelector(".output").innerHTML="DRAW, Roll Again!!!";
     }
 }
 

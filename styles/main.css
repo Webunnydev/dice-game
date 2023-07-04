@@ -18,9 +18,11 @@ img{
     height:15rem;
     width:25rem;
 }
-button a{
+a button{
     color: white;
     text-decoration: none;
+    border-radius:20px;
+    cursor:pointer;
 }
 #dice {
     background-color: green;
@@ -28,6 +30,6 @@ button a{
     font-size:2rem;
     font-weight:bold;
     letter-spacing:0.3rem;
-    border:5px solid black;
+    border:5px solid white;
 }
 
