@@ -22,7 +22,7 @@ body{
 }
 .players{
     display:inline-flex;
-    gap:5rem;
+    gap:10rem;
 }
 .players h1{
     color:white;
