@@ -7,10 +7,18 @@ body{
     justify-content:center;
     align-items:center;
 }
+.dice{
+    display:flex;
+    flex-direction:column;
+}
 .dice img{
-    margin:5rem 0 5rem 0;
+    margin-top:5rem;
     height:15rem;
     width:30rem;
+}
+#black{
+    height:0;
+    width:0;
 }
 .players{
     display:inline-flex;
