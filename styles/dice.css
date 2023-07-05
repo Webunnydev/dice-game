@@ -23,18 +23,17 @@ body{
 .players{
     display:inline-flex;
     gap:10rem;
-    color:white;
+    color:#8B008B;
     font-weight:bold;
 }
 .output {
-    background-color:#8B008B;
+    background-color: green;
     color:white;
     font-weight:bold;
     padding:0.9rem;
-    width:97%;
+    width:98.1%;
     text-align:center;
     font-size:3rem;
-
 }
 .options{
     display:flex;

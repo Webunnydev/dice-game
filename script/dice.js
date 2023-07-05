@@ -66,5 +66,22 @@ function dice(){
         document.querySelector(".output").innerHTML="DRAW, Roll Again!!!";
     }
 }
+function editName(){
+    var name1 = prompt("Change the name of PLAYER 1 to: ");
+    var name2 = prompt("Change the name of PLAYER 2 to: ");
+    document.querySelector("#player1").innerHTML = name1.toUpperCase();
+    document.querySelector("#player2").innerHTML = name2.toUpperCase();
+    if (name1 === ""){
+        document.querySelector("#player1").innerHTML = "No Name";
+    }
+    if (name2=== ""){
+        document.querySelector("#player2").innerHTML ="No name";
+    }
+    if (name1 === "" && name2 === ""){
+        document.querySelector("#player1").innerHTML = "No name"; 
+        document.querySelector("#player2").innerHTML = "No name";  
+    }
+}
+
 
 
