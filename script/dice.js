@@ -57,13 +57,13 @@ function dice(){
     }
     console.log(blackDice());
     if (blackRange>whiteRange){
-        document.querySelector(".output").innerHTML="PLAYER 2 Wins";
+        document.querySelector(".output").innerHTML="Winner: Player 1";
     }
     else if (blackRange<whiteRange){
-        document.querySelector(".output").innerHTML="PLAYER 1 Wins";
+        document.querySelector(".output").innerHTML="Winner: Player 2";
     }
     else{
-        document.querySelector(".output").innerHTML="DRAW, Roll Again!!!";
+        document.querySelector(".output").innerHTML="Draw, Roll Again!!!";
     }
 }
 function editName(){
