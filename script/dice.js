@@ -56,6 +56,7 @@ function dice(){
         }
     }
     console.log(blackDice());
+    
     if (blackRange>whiteRange){
         document.querySelector(".output").innerHTML="Winner: Player 2";
     }
